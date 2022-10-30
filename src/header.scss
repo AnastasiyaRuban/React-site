@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
+}
+
+
+body {
+  background-color: rgb(57, 17, 54);
+  color: cadetblue;
+  
+}
+
+.container {
+  max-width: 320px;
+  padding: 0 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  color: aliceblue;
+  font-size: 22px;
+ 
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation-list {
+  margin-right: 50px;
+}
+
+.navigation-list .item{
+  margin-right: 15px;
+}
